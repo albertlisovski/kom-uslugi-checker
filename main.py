@@ -19,9 +19,7 @@ class Checker:
             out_list = []
             for item in in_list:
                 out_list.append(item.replace(item[item.find("<"):len(item)],""))
-            substr1 = "".join(out_list[0:2])
-            substr2 = "".join(out_list[2:5])
-            return f"{substr1} {substr2}"
+            return f'{"".join(out_list[0:2])} {"".join(out_list[2:5])}'
 
 if __name__ == "__main__":
     TELEGRAM_TOKEN = '867113998:AAGWKsQE5CGFqtz1AyZI4fFjDOJW16x5kJs'

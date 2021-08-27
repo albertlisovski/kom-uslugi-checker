@@ -35,6 +35,6 @@ telegram-send==0.25
 toml==0.10.2
 tornado==6.1
 tzlocal==2.1
-urllib3==1.26.5
+urllib3==1.25.8
 webencodings==0.5.1
 wrapt==1.12.1

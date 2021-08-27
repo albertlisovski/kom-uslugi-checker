@@ -7,7 +7,7 @@ cffi==1.14.4
 chardet==3.0.4
 colorama==0.4.3
 contextlib2==0.6.0
-cryptography==3.3.1
+cryptography==3.3.2
 decorator==4.4.2
 distlib==0.3.0
 distro==1.4.0
@@ -35,6 +35,6 @@ telegram-send==0.25
 toml==0.10.2
 tornado==6.1
 tzlocal==2.1
-urllib3==1.25.8
+urllib3==1.26.5
 webencodings==0.5.1
 wrapt==1.12.1
